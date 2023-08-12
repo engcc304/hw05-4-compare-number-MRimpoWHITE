@@ -25,3 +25,33 @@
     Output:
         Number1 equal Number2
 */
+
+#include<stdio.h>
+
+int main(){
+
+    int ip1 = 0, ip2 = 0;
+
+    printf("Input 1 :\n");
+    scanf("%d", &ip1);
+
+    printf("Input 2 :\n");
+    scanf("%d", &ip2);
+
+    printf("Output :\n");
+
+    if (ip1 > ip2)
+    {
+        printf("Number1 greater than Number2");
+    }
+    else if (ip1 < ip2)
+    {
+        printf("Number1 lower than Number2");
+    }
+    else if (ip1 == ip2)
+    {
+        printf("Number1 equal Number2");
+    }
+    
+    return 0 ;
+}
